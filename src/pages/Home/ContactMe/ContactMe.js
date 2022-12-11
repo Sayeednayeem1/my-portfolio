@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGoogle, FaMale, FaPhone, FaVoicemail } from 'react-icons/fa';
 
 const ContactMe = () => {
     return (
@@ -17,26 +16,14 @@ const ContactMe = () => {
                         <h4>Phone: +8801751589952</h4>
                         <h4>Email: sayeedn850@gmail</h4>
                         <div className='mt-2 '>
-                            <a target='_blank' href="https://www.linkedin.com/in/sayeed-nayeem/" className='btn mr-2 btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600'>Linkedin</a>
-                            <a target='_blank' href="https://web.facebook.com/sayed.nayem.188" className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600'>Facebook</a>
+                            <a  href="https://www.linkedin.com/in/sayeed-nayeem/" className='btn mr-2 btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600'>Linkedin</a>
+                            <a href="https://web.facebook.com/sayed.nayem.188" className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600'>Facebook</a>
                         </div>
                     </div>
-                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl ">
                         <div className="card-body">
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Email</span>
-                                </label>
-                                <input type="text" placeholder="email" className="input input-bordered" />
-                            </div>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Password</span>
-                                </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
-                            </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Visit To Submit</button>
+                                <a target='_blank'  href="https://form.jotform.com/223442239003445" className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600'>Visit To Text Me</a>
                             </div>
                         </div>
                     </div>

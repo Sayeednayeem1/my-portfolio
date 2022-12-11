@@ -5,7 +5,7 @@ import Img3 from '../../../assets/images/Amazing-John3.png';
 
 const AmazingJohnDetails = () => {
     return (
-        <div>
+        <div className='mt-12'>
             <div className="carousel w-full rounded">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={Img1} className="w-full" alt='' />
