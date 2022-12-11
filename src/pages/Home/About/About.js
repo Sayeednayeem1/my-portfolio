@@ -1,10 +1,11 @@
 import React from 'react';
+import 'animate.css';
 import ImgAbout from '../../../assets/images/footer.png';
 
 const About = () => {
     return (
         <div className='mt-10'>
-            <div className="hero">
+            <div className="hero animate__animated animate__backInLeft">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={ImgAbout} className="max-w-sm rounded-lg shadow-2xl" alt='This is an img made by animation' />
                     <div>

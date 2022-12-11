@@ -3,7 +3,7 @@ import Img from '../../../assets/images/footer.png';
 
 const Blog = () => {
     return (
-        <div className='mt-16 mb-16'>
+        <div className='mt-16 mb-16 animate__animated animate__lightSpeedInRight'>
             <div className="hero shadow-xl">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={Img} className="max-w-sm rounded-lg shadow-2xl" alt='' />

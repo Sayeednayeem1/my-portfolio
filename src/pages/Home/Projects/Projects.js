@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 import AmazingJohn from '../../../assets/images/Amazing-John.png';
 import DoctorWalid from '../../../assets/images/DoctorWalid.png';
 import QuizTime from '../../../assets/images/QuizTime.png';
 
 const Projects = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10 animate__animated animate__backInRight'>
             <h1 className='text-center text-white mb-8 text-4xl'>My Projects</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div className="card shadow-xl">

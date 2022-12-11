@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <div>
+        <div className='mt-10 animate__animated animate__backInUp'>
             <div className='text-center text-white mt-12 mb-10'>
                 <h5 className='text-4xl'>Contact Me</h5>
                 <h6 className='text-2xl'>Get In Touch</h6>
