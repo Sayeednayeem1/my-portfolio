@@ -1,5 +1,5 @@
 import React from 'react';
-import footer from '../../../assets/images/footer.png'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -13,9 +13,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
-                        <a href="/">Test</a>
-                        <a href="/">Test</a>
-                        <a href="/">Test</a>
+                        <a className='text-3xl' href="https://www.linkedin.com/in/sayeed-nayeem/"><FaLinkedin></FaLinkedin></a>
+                        <a className='text-3xl' href="https://github.com/Sayeednayeem1"><FaGithub></FaGithub></a>
+                        <a className='text-3xl' href="https://web.facebook.com/sayed.nayem.188"><FaFacebook></FaFacebook></a>
                     </div>
                 </div>
             </footer>
