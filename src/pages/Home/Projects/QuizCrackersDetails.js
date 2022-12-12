@@ -44,9 +44,8 @@ const QuizCrackersDetails = () => {
                             6. There are plenty of options for a buyer to buy theres lots and lots of products. <br />
                         </p>
                         <div className="card-actions justify-start">
-                            <a className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600 mr-1' href="/">Live Link</a>
-                            <a className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600 mr-1' href="/">Github Client</a>
-                            <a className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600' href="/">Github Server</a>
+                            <a className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600 mr-1' href="https://master-minds-quiz-e1b15b.netlify.app/">Live Link</a>
+                            <a className='btn btn-primary border-none bg-gradient-to-r from-purple-600 to-blue-600 mr-1' href="https://github.com/Sayeednayeem1/-b6-quiz-crackerz">Github Client</a>
                         </div>
                     </div>
                 </div>
