@@ -8,6 +8,7 @@ import AmazingJohnDetails from "../pages/Home/Projects/AmazingJohnDetails";
 import DrWalidDetails from "../pages/Home/Projects/DrWalidDetails";
 import Projects from "../pages/Home/Projects/Projects";
 import QuizCrackersDetails from "../pages/Home/Projects/QuizCrackersDetails";
+import Skills from "../pages/Home/Skills/Skills";
 
 
 // todo this is react router dom component
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
             {
                 path: "/contactMe",
                 element: <ContactMe></ContactMe>
+            },
+            {
+                path: "/skills",
+                element: <Skills></Skills>
             }
         ]
     }
