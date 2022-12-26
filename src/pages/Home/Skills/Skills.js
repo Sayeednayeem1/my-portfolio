@@ -38,7 +38,7 @@ const Skills = () => {
                 <div className="card shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title text-white">Languages</h2>
-                        <p className='text-white'>1. Bangla - native 2. English - Comfortable 3. Hindi - Average.</p>
+                        <p className='text-white'>1. Bangla - native 2. English - Professional 3. Hindi - Average.</p>
                     </div>
                 </div>
             </div>
